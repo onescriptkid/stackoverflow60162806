@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" style="">
+<head>
+  <script type="text/javascript" src="/js/pdf.min.js"></script>
+<base href="/test/">
+</head>
+<body>
+  <br>
+  <br>
+    <button type="button" class="btn btn-default btn-lg tts-btn" title="Upload text, pdf or ebook file">
+      <span class="glyphicon glyphicon-open-file btn-glyph" aria-hidden="true"></span>
+      <input type="file" id="files" name="files[]">
+    </button>
+    <br>
+    <br>
+    <div class="buttons_row">
+      <select class="btn btn-template-primary" id="select_language">
+        <option value=" UK English Male">UK English (default)</option>
+      </select>
+      <select class="btn btn-template-primary" id="select_speed">
+        <option value="0.9">Normal Speed</option>
+      </select>
+    </div>
+    <br>
+    <br>            
+    <textarea id="text_box" rows="7" cols="50"></textarea>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/pdf.worker.min.js"></script>
+    <script src="/js/pdfparser2.min.js"></script>
+    <script src="/js/script19.min.js"></script> 
+  </body>
+</html>
